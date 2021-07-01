@@ -18,3 +18,5 @@
   ​                                 dot x = A*x + B*u+d
 
   the simulation can also run ideally.
+  
+  > 欢迎各位同学报考大连理工大学电子信息与电气工程学部
