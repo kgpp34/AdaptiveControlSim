@@ -13,10 +13,13 @@
 
 - the application of the simulation
 
-  This numerical simulation focus on the aero-engine control field. Actually, if the form of the controlled plant(objected) satisfies:
+  This numerical simulation focus on the aero-engine control field. Actually, if the form of the controlled plant(object) satisfies:
 
   ​                                 dot x = A*x + B*u+d
 
   the simulation can also run ideally.
+  
+  Furthermore, in the dynamics formula, d is the constant item(affine vector). and the system matrix A and affine vector can also unknown.
+  If your controlled plant does not contain the affine vector, you can set both d and the adaptive law of d_hat = 0.
   
   > 欢迎各位同学报考大连理工大学电子信息与电气工程学部
